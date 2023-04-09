@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="section">
+        <div class="chair">
+          <img class="chair-img" src="images/chair1.png" />
+        </div>
+        <div class="chair-description">
+          <p class="title-up">MODERN CHAIR</p>
+          <h2>Telford kursi</h2>
+          <div class="price">
+            <p>$254</p>
+            <p><s>$530</s></p>
+          </div>
+          <div class="description-box">
+            <p id="description">Description</p>
+            <p id="details" class="hovereffect opa">Details</p>
+          </div>
+          <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            aliquid ad Lorem ipsum dolor sit amet
+          </div>
+          <div class="details">
+            <p><span>80cm</span> <br />Length</p>
+            <p><span>65cm</span> <br />Width</p>
+            <p><span>90cm</span> <br />Height</p>
+            <p><span>17.6lbs</span> <br />weight</p>
+          </div>
+          <p class="choose">Choose Color :</p>
+          <div class="colors">
+            <input
+              class="color-btn"
+              type="radio"
+              id="color-1"
+              name="color-btn"
+            />
+            <label
+              class="first-color"
+              for="color-1"
+              id="colo-1"
+              onclick="show(this.id)"
+            ></label>
+            <input
+              class="color-btn"
+              type="radio"
+              id="color-2"
+              name="color-btn"
+            />
+            <label
+              class="color-2"
+              for="color-2"
+              id="colo-2"
+              onclick="show(this.id)"
+            ></label>
+            <input
+              class="color-btn"
+              type="radio"
+              id="color-3"
+              name="color-btn"
+            />
+            <label
+              class="color-3"
+              for="color-3"
+              id="colo-3"
+              onclick="show(this.id)"
+            ></label>
+            <input
+              class="color-btn"
+              type="radio"
+              id="color-4"
+              name="color-btn"
+            />
+            <label
+              class="color-4"
+              for="color-4"
+              id="colo-4"
+              onclick="show(this.id)"
+            ></label>
+            <input
+              class="color-btn"
+              type="radio"
+              id="color-5"
+              name="color-btn"
+            />
+            <label
+              class="color-5"
+              for="color-5"
+              id="colo-5"
+              onclick="show(this.id)"
+            ></label>
+          </div>
+          <div class="button">
+            <i class="fa fa-shopping-cart"></i>
+            <a href="#">Add To Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
